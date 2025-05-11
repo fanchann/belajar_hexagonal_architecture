@@ -1,0 +1,13 @@
+[database]
+host = "localhost"
+port = "3306"
+username = "example_user"
+password = "example_password"
+database_name = "example_db"
+db_max_idle_conns = 5
+db_max_open_conns = 50
+db_conn_max_lifetime = "30m"
+db_conn_max_idle_time = "15m"
+
+[server]
+port = "5001"
