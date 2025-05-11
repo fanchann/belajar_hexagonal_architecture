@@ -36,7 +36,9 @@ message BookListResponse {
   repeated BookResponse books = 1;
 }
 
-message Empty {}
+message Empty {
+	
+}
 
 
 service BookService {
